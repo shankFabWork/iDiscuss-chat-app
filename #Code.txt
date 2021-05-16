@@ -1,0 +1,10 @@
+idiscuss-chat-app
+
+heroku login
+
+git init
+heroku git:remote -a idiscuss-chat-app
+git add .
+git commit -m "a"
+git push heroku master
+
