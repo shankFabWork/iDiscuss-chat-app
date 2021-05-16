@@ -8,3 +8,10 @@ git add .
 git commit -m "a"
 git push heroku master
 
+
+npm init -y
+
+"dev": "nodemon index.js",
+"start":"node index.js",
+
+npm i express nodemon socket.io cors
