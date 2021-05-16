@@ -7,6 +7,7 @@ heroku git:remote -a idiscuss-chat-app
 git add .
 git commit -m "a"
 git push heroku master
+heroku logs --tail
 
 
 npm init -y
