@@ -16,6 +16,5 @@
     "nodemon": "*",
     "socket.io": "*"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

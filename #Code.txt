@@ -9,6 +9,8 @@ git commit -m "a"
 git push heroku master
 heroku logs --tail
 
+ npm cache clean --force
+
 
 npm init -y
 
