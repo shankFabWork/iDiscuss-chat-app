@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000')
+const socket = io('https://idiscuss-chat-app.herokuapp.com/')
 const form = document.getElementById("send-container")
 const messageInput = document.getElementById("messageInput")
 const messageContainer = document.querySelector(".container")
